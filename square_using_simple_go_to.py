@@ -59,7 +59,7 @@ time.sleep(30)
 print "Returning to Launch"
 vehicle.mode = dronekit.VehicleMode("RTL")
 
-#Close vehicle object before exiting script
+# Close vehicle object before exiting script
 print "Close vehicle object"
 vehicle.close()
 
