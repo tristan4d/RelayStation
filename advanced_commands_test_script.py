@@ -16,7 +16,7 @@ vehicle = dronekit.connect(connection_string, wait_ready=True)
 # Arms the vehicle and takes of the specified altitude.
 arm_and_takeoff(altitude, vehicle)
 
-# Section for entering commands for test run. 
+# Section for entering commands for test run.
 # ----------------------------------------------------------------------------------------------------------------------
 
 
