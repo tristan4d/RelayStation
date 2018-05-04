@@ -2,6 +2,7 @@ import dronekit
 import dronekit_sitl
 import time
 from arm_and_takeoff import arm_and_takeoff
+import Sender_API
 
 altitude = 20
 
@@ -16,9 +17,11 @@ vehicle = dronekit.connect(connection_string, wait_ready=True)
 # Arms the vehicle and takes of the specified altitude.
 arm_and_takeoff(altitude, vehicle)
 
+# Initiating the Sender API.
+sender = Sender_API.Sender_API('COM3')
+
 # Section for entering commands for test run.
 # ----------------------------------------------------------------------------------------------------------------------
-
 
 
 # ----------------------------------------------------------------------------------------------------------------------
