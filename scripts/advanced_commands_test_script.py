@@ -20,7 +20,8 @@ arm_and_takeoff(altitude, vehicle)
 # Initiating the Sender API.
 sender = Sender_API.Sender_API('COM3')
 
-# Section for entering commands for test run.
+# Section for entering commands for test run. Essentially this is where methods for the instantiated Sender class should
+# be run.
 # ----------------------------------------------------------------------------------------------------------------------
 
 
